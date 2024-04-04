@@ -857,8 +857,8 @@ img {
   .footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-
+    justify-content: flex-start;
+    padding-left: 108px;
   }
 }
 
@@ -866,6 +866,7 @@ img {
   .footer-container {
     display: flex;
     flex-wrap: nowrap;
+    padding-left: 15px;
   }
 }
 
@@ -919,7 +920,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .footer-text {
-  max-width: 264px;
+    max-width: 264px;
   }
 }
 
@@ -999,7 +1000,7 @@ img {
   .subscribe {
     /* align-items: flex-start;
     flex-direction: row; */
-     text-align: start;
+    text-align: start;
   }
 }
 
@@ -1010,11 +1011,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-
 }
-@media screen and (min-width: 768px){
-  .subscribe-text{
-  margin-right: 40px;
+@media screen and (min-width: 768px) {
+  .subscribe-text {
+    margin-right: 40px;
   }
 }
 
@@ -1284,8 +1284,6 @@ img {
   margin-right: 8px;
 }
 
-.checkbox-icon {
-}
 
 .checkbox-link {
   text-decoration: underline;
